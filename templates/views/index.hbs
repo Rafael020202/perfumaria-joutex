@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joutex</title>
+    <link rel="icon" href="/images/ico.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {{>header}}
+    <div class="main-content">
+        <ul>
+            {{#each data}}
+                <li>
+                    <img src='/images/{{this.imagem}}' width="200" height="200">
+                    <div class="nome">
+                        {{this.nome}}
+                    </div>
+                </li>
+            {{/each}}
+        </ul>
+        
+    </div>
+
+</body>
+</html>

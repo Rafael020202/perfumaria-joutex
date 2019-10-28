@@ -1,0 +1,9 @@
+->um página inicial com os perfumes
+    ->cada perfume terá:
+        ->Nome
+        ->Descição
+        ->Fabricante
+        ->Preço
+
+->Uma área dizendo sobre a empresa joutex
+->Um formulário para cadastro de clientes
